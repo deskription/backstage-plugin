@@ -6,6 +6,7 @@
     "node": "18 || 20"
   },
   "scripts": {
+    "dev-pages": "yarn workspace @deskription/backstage-plugin start",
     "dev": "concurrently \"yarn start\" \"yarn start-backend\"",
     "start": "yarn workspace app start",
     "start-backend": "yarn workspace backend start",
