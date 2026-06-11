@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "deskription",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -50,7 +50,12 @@
   },
   "resolutions": {
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@octokit/rest": "^22.0.1",
+    "@octokit/plugin-paginate-rest": "^14.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "^17.0.0",
+    "nan": "2.27.0",
+    "@protobufjs/inquire": "1.1.0"
   },
   "prettier": "@backstage/cli/config/prettier",
   "lint-staged": {
