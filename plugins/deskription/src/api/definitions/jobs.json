@@ -1,0 +1,17 @@
+{
+  "type": "jobs",
+  "label": "Jobs",
+  "columns": [
+    { "id": "name", "label": "Name", "path": "metadata.name" },
+    { "id": "namespace", "label": "Namespace", "path": "metadata.namespace" },
+    { "id": "active", "label": "Active", "path": "status.active" },
+    { "id": "succeeded", "label": "Succeeded", "path": "status.succeeded" },
+    { "id": "failed", "label": "Failed", "path": "status.failed" },
+    {
+      "id": "createdAt",
+      "label": "Age",
+      "path": "metadata.creationTimestamp",
+      "format": "datetime"
+    }
+  ]
+}

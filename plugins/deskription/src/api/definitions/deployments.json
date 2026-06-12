@@ -1,0 +1,18 @@
+{
+  "type": "deployments",
+  "label": "Deployments",
+  "columns": [
+    { "id": "name", "label": "Name", "path": "metadata.name" },
+    { "id": "namespace", "label": "Namespace", "path": "metadata.namespace" },
+    { "id": "replicas", "label": "Replicas", "path": "spec.replicas" },
+    { "id": "ready", "label": "Ready", "path": "status.readyReplicas" },
+    { "id": "available", "label": "Available", "path": "status.availableReplicas" },
+    { "id": "updated", "label": "Updated", "path": "status.updatedReplicas" },
+    {
+      "id": "createdAt",
+      "label": "Age",
+      "path": "metadata.creationTimestamp",
+      "format": "datetime"
+    }
+  ]
+}

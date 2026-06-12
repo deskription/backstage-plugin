@@ -1,0 +1,17 @@
+{
+  "type": "pods",
+  "label": "Pods",
+  "columns": [
+    { "id": "name", "label": "Name", "path": "metadata.name" },
+    { "id": "namespace", "label": "Namespace", "path": "metadata.namespace" },
+    { "id": "status", "label": "Status", "path": "status.phase" },
+    { "id": "podIP", "label": "Pod IP", "path": "status.podIP" },
+    { "id": "node", "label": "Node", "path": "spec.nodeName" },
+    {
+      "id": "createdAt",
+      "label": "Age",
+      "path": "metadata.creationTimestamp",
+      "format": "datetime"
+    }
+  ]
+}
